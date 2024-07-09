@@ -20,12 +20,12 @@ chords()
         
 performance = s.stop_transcribing()
 
-output_dir = r'C:\Users\sagan\Desktop\Music Py Projects\cpp\0.7\xmls'
+output_dir = r'FILEPATH'
 os.makedirs(output_dir, exist_ok=True)
 
 performance.to_score().export_music_xml(os.path.join(output_dir, 'Generated Tune.xml'))
 
-score = converter.parse(r'C:\Users\sagan\Desktop\Music Py Projects\cpp\0.7\xmls\Generated Tune.xml')
+score = converter.parse(r'FILEPATH')
 
 for measure in score.parts[0].getElementsByClass('Measure'):
     for element in measure:
