@@ -1,4 +1,4 @@
-CPP or Chord Progression Program creates a chord progression in a 32-bar form and can be used for real time improvization or as an analysis tool. 
+CPP or Chord Progression Program creates a chord progression in a 32-bar form and can be used for real time improvization or as an exercise in analysis. 
 
 ## Installation and Setup:
 
