@@ -10,4 +10,4 @@ CPP requires a music XML reader. Music notation software such as Sibelius, Final
 
 ## Run the app:
 
-Open cpp0.7.py, configure file path, run cpp0.7.py, and open outputted XML file with reader of choice.
+Open cpp0.7.py, configure file path, run cpp0.7.py, and configure input for music21 library using configure.run() command on line 45 (only needs to be ran once and can be removed after setup is complete). 
