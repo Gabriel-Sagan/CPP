@@ -41,6 +41,9 @@ for measure in score.parts[0].getElementsByClass('Measure'):
         
 score.metadata.composer = 'Generated with Chord Progression Program 0.7 written by Gabriel Sagan'
 
+#Must run once to use music21, remove after setup
+configure.run()
+
 score.show()
 
 
