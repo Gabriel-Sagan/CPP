@@ -4,7 +4,7 @@ CPP or Chord Progression Program creates a chord progression in a 32-bar form an
 
 CPP uses the Python libraries SCAMP and music21. Type the following commands in the command prompt to install: 
 
-pip install scamp music21
+pip install scamp music21 pynput python-rtmidi
 
 CPP requires a music XML reader. Music notation software such as Sibelius, Finale, or MuseScore work fine. MuseScore is free and recommended: https://musescore.org/en/download
 
